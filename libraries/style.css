@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+body {
+	margin: 0;
+	display: block;
+}
+
+.text{
+	margin: 20px;
+	max-width: 1000px;
+}
+
+h1,h2,p {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.125em;
+	text-transform: capitalize;
+}
+
+p {
+	font-size: 0.938em;
+}
+
+.footer {
+	color: gray;
+}
+
+.highlight {
+	font-weight: bold;
+}
+
+.imgbox {
+	/*display: inline-block;*/
+	float: left;
+    width: 240px;
+    height: 240px;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.afterbox {
+	clear:left;
+	padding-top: 10px;
+}
+
+.clickbox {
+	width: 240px;
+	height: 240px;
+	margin: auto;
+}
+
+#brush {
+    background-image: url("../brush/imgl/brushl_21.jpg");
+}
+
+#carpet {
+    background-image: url("../carpet/img/carpet_25.jpg");
+}
+
+#presscushion {
+    background-image: url("../presscushion/img/pcushion_38.jpg");
+}
+
+#squeezecushion {
+    background-image: url("../squeezecushion/img/scushion_30.jpg");
+}
+
+#drawer {
+    background-image: url("../drawer/img/drawerl_48.jpg");
+    background-position: left;
+}
+
+#fabric1 {
+    background-image: url("../fabric1/imgsc/cloth_38.jpg");
+}
+
+#fabric2 {
+    background-image: url("../fabric2/imgsc/cloth c_36.jpg");
+}
+
+#jar {
+    background-image: url("../jar/img/jar_19.jpg");
+}
+
+#lamp {
+    background-image: url("../lamp/img/lamp_47.jpg");
+}
+
+#pen {
+    background-image: url("../pen/img/pen_1.jpg");
+}
+
+#slipper {
+    background-image: url("../slipper/img/slipper_31.jpg");
+}
+
+#sock {
+    background-image: url("../sock/img/sock s_1.jpg");
+}
+
+.portrait {
+	height: 100%;
+	margin: auto;
+	display: block;
+}
+
+.landscape {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
