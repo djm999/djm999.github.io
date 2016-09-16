@@ -9,9 +9,9 @@ var nImages=finish-start;
 var imgs = [];
 var imgStart;
 
-var hotAreaLeftW=114, hotAreaLeftH=238, hotAreaLeftX=610, hotAreaLeftY=113;
+var hotAreaLeftW=250, hotAreaLeftH=238, hotAreaLeftX=610, hotAreaLeftY=113;
 var switchW=80, switchH=77, switchX=252, switchY=480;
-var xl=(hotAreaLeftX+hotAreaLeftW/2),yl=hotAreaLeftY;
+var xl=(hotAreaLeftX+58),yl=hotAreaLeftY;
 var cx=(switchX+switchW/2),cy=(switchY+switchH/2),cr=20;
 var anim=60,speed=0.3;
 var cSwitch,cBulb,r;
