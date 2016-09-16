@@ -2,8 +2,8 @@ var imgWidth=1024;
 var imageNumber;
 var n;
 
-var hotAreaLeftW=89, hotAreaLeftH=173, hotAreaLeftX=732, hotAreaLeftY=181;
-var hotAreaRightW=73, hotAreaRightH=131, hotAreaRightX=176, hotAreaRightY=139;
+var hotAreaLeftW=289, hotAreaLeftH=173, hotAreaLeftX=532, hotAreaLeftY=181;
+var hotAreaRightW=273, hotAreaRightH=131, hotAreaRightX=176, hotAreaRightY=139;
 var r;
 
 var start=1;
@@ -12,8 +12,8 @@ var finish=37;
 var nImages=finish-start;
 var imgs = [];
 
-var xl=(hotAreaLeftX+hotAreaLeftW/2),yl=(hotAreaLeftY+hotAreaLeftH);
-var xr=(hotAreaRightX+hotAreaRightW/2),yr=(hotAreaRightY+hotAreaRightH);
+var xl=(732+89/2),yl=(hotAreaLeftY+hotAreaLeftH);
+var xr=(hotAreaRightX+73/2),yr=(hotAreaRightY+hotAreaRightH);
 var anim=40;
 var c;
 
