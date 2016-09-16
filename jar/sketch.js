@@ -10,7 +10,7 @@ var imgs = [];
 var light;
 var xlight;
 
-var hotAreaLeftW=650, hotAreaLeftH=120, hotAreaLeftX=190, hotAreaLeftY=0;
+var hotAreaLeftW=650, hotAreaLeftH=550, hotAreaLeftX=190, hotAreaLeftY=0;
 
 var r,w;
 
@@ -52,6 +52,8 @@ function draw() {
   n=ceil(imageNumber);
   image(imgs[n], 0, 0,imgWidth*r,imgWidth*r*9/16);
   image(light,xlight,-1,r*65,r*108);
+  noStroke();
+  rect(hotAreaLeftX*r,-1,hotAreaLeftW*r,6*r)
 }
 
 function touchMoved(){
