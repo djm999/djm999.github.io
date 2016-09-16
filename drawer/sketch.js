@@ -6,7 +6,7 @@ var n,touched,fixImage;
 var hotAreaRightW=699, hotAreaRightH=309, hotAreaRightX=120, hotAreaRightY=206;
 var r;
 
-var blockL=123,blockW=86;
+var blockL=200,blockW=100;
 var blockRX=156;
 
 var start=14;
