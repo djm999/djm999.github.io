@@ -8,9 +8,16 @@ body {
 .text{
 	margin: 20px;
 	max-width: 1000px;
+	line-height: 150%;
 }
 
-h1,h2,p {
+.article{
+	margin: 20px;
+	max-width: 800px;
+	line-height: 150%;
+}
+
+h1,h2,h3,p {
 	font-family: 'Lato', sans-serif;
 }
 
@@ -21,16 +28,30 @@ h1 {
 }
 
 h2 {
-	font-size: 1.125em;
-	text-transform: capitalize;
+	font-size: 1.25em;
+	font-weight: bold;
+	color:#da5c18;
+}
+
+h3 {
+	font-size: 1em;
+	color:#646464;
 }
 
 p {
-	font-size: 0.938em;
+	font-size: 1em;
 }
 
 .footer {
 	color: gray;
+	line-height: 120%;
+	padding-bottom: 20px;
+}
+
+.pic {
+	display: block;
+	max-width: 800px;
+	line-height: 20%;
 }
 
 .highlight {
@@ -58,6 +79,18 @@ p {
 	width: 240px;
 	height: 240px;
 	margin: auto;
+}
+
+.button {
+    background-color: #da5c18;
+    border: none;
+    color: white;
+    padding: 0px 54px;
+    margin: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 #brush {
