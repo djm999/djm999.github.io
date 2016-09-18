@@ -14,7 +14,7 @@ window.onload = function(){ //function preloadImages(){
     context.fillStyle = "black";
     context.font = "30px Arial";
     context.textAlign = "center";
-    context.fillText("On 3D touch devices: press the cushion with different forces.",512,60);
+    context.fillText("On 3D Touch devices: press the cushion with different forces.",512,60);
   }
 }
 
