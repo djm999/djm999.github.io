@@ -4,12 +4,12 @@ var n;
 var direction = 'squeeze';
 
 //mapping hot areas for squeezing
-var hotArea1LeftW=173, hotArea1LeftH=100, hotArea1LeftX=720, hotArea1LeftY=514;
-var hotArea1RightW=155, hotArea1RightH=100, hotArea1RightX=1020, hotArea1RightY=514;
+var hotArea1LeftW=173, hotArea1LeftH=300, hotArea1LeftX=720, hotArea1LeftY=414;
+var hotArea1RightW=155, hotArea1RightH=300, hotArea1RightX=1020, hotArea1RightY=414;
 
 //mapping hot areas for squeezing
-var hotArea2LeftW=175, hotArea2LeftH=100, hotArea2LeftX=433, hotArea2LeftY=514;
-var hotArea2RightW=175, hotArea2RightH=100, hotArea2RightX=1320, hotArea2RightY=514;
+var hotArea2LeftW=175, hotArea2LeftH=300, hotArea2LeftX=433, hotArea2LeftY=414;
+var hotArea2RightW=175, hotArea2RightH=300, hotArea2RightX=1320, hotArea2RightY=414;
 
 var r;
 
