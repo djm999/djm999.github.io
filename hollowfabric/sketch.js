@@ -4,20 +4,20 @@ var n;
 var direction = 'squeeze';
 
 //mapping hot areas for squeezing
-var hotArea1LeftW=173, hotArea1LeftH=300, hotArea1LeftX=720, hotArea1LeftY=414;
+var hotArea1LeftW=160, hotArea1LeftH=300, hotArea1LeftX=750, hotArea1LeftY=414;
 var hotArea1RightW=155, hotArea1RightH=300, hotArea1RightX=1020, hotArea1RightY=414;
 
 //mapping hot areas for squeezing
-var hotArea2LeftW=175, hotArea2LeftH=300, hotArea2LeftX=433, hotArea2LeftY=414;
-var hotArea2RightW=175, hotArea2RightH=300, hotArea2RightX=1320, hotArea2RightY=414;
+var hotArea2LeftW=155, hotArea2LeftH=300, hotArea2LeftX=490, hotArea2LeftY=414;
+var hotArea2RightW=155, hotArea2RightH=300, hotArea2RightX=1320, hotArea2RightY=414;
 
 var r;
 
 var start1=1;
-var finish1=22;
+var finish1=33;
 
 var start2=1;
-var finish2=47;
+var finish2=43;
 
 var nImages1=finish1-start1;
 var nImages2=finish2-start2;
