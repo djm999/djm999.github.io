@@ -93,6 +93,22 @@ p {
     font-size: 16px;
 }
 
+#roughball {
+    background-image: url("../roughball/img/roughball_1.jpg");
+}
+
+#blackball {
+    background-image: url("../blackball/img/blackball_1.jpg");
+}
+
+#softball {
+    background-image: url("../softball/img/squeezeball_24.jpg");
+}
+
+#hollowfabric {
+    background-image: url("../hollowfabric/newimage1/fabric1_19.jpg");
+}
+
 #brush {
     background-image: url("../brush/imgl/brushl_21.jpg");
 }
