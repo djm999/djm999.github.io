@@ -75,9 +75,12 @@ p {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	width: 65px;
-	height: 65px;
-	background-image: url("new-label.png");
+	width: 64px;
+	height: 64px;
+	background-image: url("newlabel.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .afterbox {
